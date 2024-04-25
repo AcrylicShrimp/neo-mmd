@@ -1,0 +1,12 @@
+[package]
+name = "neo-mmd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+r3d = { git = "https://github.com/AcrylicShrimp/r3d.git" }
+
+pollster = { version = "0.3" }
+thiserror = { version = "1" }
